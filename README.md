@@ -1,4 +1,4 @@
-# IT3381 Assignment - Part 2: AG News Text Classification
+# AG News Text Classification
 
 Deep learning solution for classifying news articles (title + description) into
 four categories: World, Sports, Business, Sci/Tech, using the AG News
@@ -34,7 +34,7 @@ Deep learning addresses this via word embeddings and sequence/context modeling.
 
 ## Notebook Structure
 
-The full pipeline lives in `IT3381_Part2_AG_News_Classification.ipynb`:
+The full pipeline lives in `AG_News_Classifier.ipynb`:
 
 1. Setup & Data Loading: mount Drive, install deps, load AG News CSVs, map labels
 2. Exploratory Data Analysis: class balance, missing/duplicate checks, raw text
@@ -115,7 +115,7 @@ nltk
 
 ## How to Run
 
-1. Open `IT3381_Part2_AG_News_Classification.ipynb` in Google Colab.
+1. Open `SG_News_Classifier.ipynb` in Google Colab.
 2. Place `train.csv` and `test.csv` in `MyDrive/ag_news/`.
 3. Run all cells top to bottom (Runtime -> Run all). A GPU runtime is
    recommended for reasonable training/inference times, especially for Model B.
