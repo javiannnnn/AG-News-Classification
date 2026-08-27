@@ -61,8 +61,6 @@ Test set results (7,600 held-out AG News articles, 1,900 per class):
 | Test accuracy | 0.918 | 0.941 |
 | Macro F1 | 0.92 | 0.94 |
 | Parameters | 1.28M | 66.96M |
-| Training time | 113.4s | 930.9s |
-| Inference time (500 samples) | 0.151s | 0.374s |
 
 Per-class F1 (test set):
 
