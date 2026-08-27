@@ -174,3 +174,5 @@ in DistilBERT's dropout/AdamW updates.
   deployments.
 - The notebook is designed around Google Colab and Google Drive paths; running
   it elsewhere requires adapting the data-loading and dependency-install cells.
+
+Note that 2 of the visualisations in the notebook can only be viewed in Google Colab (3D t-SNE and attention visualiser and cannot be viewed in GitHub or your local IDE.), just download the .ipynb and open it in Google Colab and it should be there. 
